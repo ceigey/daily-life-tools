@@ -1,0 +1,96 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/local_collection_driver.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/collection.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/connection_options.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/doc_fetcher.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/mongo_driver.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/mongo_utils.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/observe_multiplex.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/oplog_observe_driver.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/oplog_tailing.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/oplog_v2_converter.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/polling_observe_driver.js",
+        "/home/ceige/.meteor/packages/mongo/2.0.1/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/home/ceige/.meteor/packages/reactive-var/1.0.13/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/home/ceige/.meteor/packages/es5-shim/4.8.1/web.browser/client.js",
+        "/home/ceige/.meteor/packages/es5-shim/4.8.1/web.browser/console.js",
+        "/home/ceige/.meteor/packages/es5-shim/4.8.1/web.browser/cordova.js",
+        "/home/ceige/.meteor/packages/es5-shim/4.8.1/web.browser/export_globals.js",
+        "/home/ceige/.meteor/packages/es5-shim/4.8.1/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/home/ceige/.meteor/packages/ecmascript/0.16.9/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/home/ceige/.meteor/packages/shell-server/0.6.0/web.browser/main.js",
+        "/home/ceige/.meteor/packages/shell-server/0.6.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/home/ceige/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
+        "/home/ceige/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
+        "/home/ceige/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/home/ceige/.meteor/packages/react-meteor-data/3.0.1/web.browser/index.js",
+        "/home/ceige/.meteor/packages/react-meteor-data/3.0.1/web.browser/suspense/index.js"
+      ],
+      "meteor/jam:easy-schema": [
+        "/home/ceige/.meteor/packages/jam_easy-schema/1.4.0/web.browser/easy-schema-client.js",
+        "/home/ceige/.meteor/packages/jam_easy-schema/1.4.0/web.browser/easy-schema-server.js",
+        "/home/ceige/.meteor/packages/jam_easy-schema/1.4.0/web.browser/shared.js",
+        "/home/ceige/.meteor/packages/jam_easy-schema/1.4.0/web.browser/utils.js"
+      ],
+      "meteor/jam:method": [
+        "/home/ceige/.meteor/packages/jam_method/1.7.2/web.browser/method.js",
+        "/home/ceige/.meteor/packages/jam_method/1.7.2/web.browser/utils.js"
+      ],
+      "meteor/jam:offline": [
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/client.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/server.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/bc.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/config.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/ddp.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/idb.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/load.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/method.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/mongo.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/sync.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/users.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/utils/client.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/utils/server.js",
+        "/home/ceige/.meteor/packages/jam_offline/0.2.3/web.browser/lib/utils/shared.js"
+      ],
+      "meteor/accounts-password": [
+        "/home/ceige/.meteor/packages/accounts-password/3.0.1/web.browser/password_client.js",
+        "/home/ceige/.meteor/packages/accounts-password/3.0.1/web.browser/email_templates.js",
+        "/home/ceige/.meteor/packages/accounts-password/3.0.1/web.browser/password_server.js"
+      ],
+      "meteor/jam:soft-delete": [
+        "/home/ceige/.meteor/packages/jam_soft-delete/0.1.1/web.browser/soft-delete.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
