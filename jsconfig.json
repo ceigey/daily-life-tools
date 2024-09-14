@@ -81,6 +81,9 @@
       ],
       "meteor/jam:soft-delete": [
         "/home/ceige/.meteor/packages/jam_soft-delete/0.1.1/web.browser/soft-delete.js"
+      ],
+      "meteor/jquery": [
+        "/home/ceige/.meteor/packages/jquery/3.0.0/web.browser/main.js"
       ]
     }
   },

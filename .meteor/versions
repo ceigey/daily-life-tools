@@ -43,6 +43,7 @@ jam:easy-schema@1.4.0
 jam:method@1.7.2
 jam:offline@0.2.3
 jam:soft-delete@0.1.1
+jquery@3.0.0
 launch-screen@2.0.1
 less@4.1.1
 localstorage@1.2.1
